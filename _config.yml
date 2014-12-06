@@ -27,6 +27,9 @@ author :
 #
 production_url : http://username.github.io
 
+discourse_url: "http://forums.couchbase.com/
+
+
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
@@ -80,9 +83,16 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : false   
-  
-  discourse_url: "http://forums.couchbase.com/
+    provider : false
+    livefyre :
+      site_id : 123
+    intensedebate :
+      account : 123abc
+    facebook :
+      appid : 123
+      num_posts: 5
+      width: 580
+      colorscheme: light
 
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
